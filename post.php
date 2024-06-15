@@ -18,7 +18,7 @@ if($user){
     header("Location: home.php");
 }
 else{
-    header("Location: clara.php?error=1");
+    header("Location: index.php?error=1");
 }
 
 ?>
