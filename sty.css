@@ -1,0 +1,101 @@
+.bdy{
+    background: url('https://i.redd.it/uwwte8wps4h91.gif');
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.container{
+    position: relative;
+    top: 18em;
+    left: 33em;
+}
+
+#nome{
+    width: 320px;
+    height: 30px;
+    background: transparent;
+    border-left: 1px none transparent;
+    border-top: 1px none transparent;
+    border-right: 1px none transparent;
+    border-bottom: 3px solid white;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    position: relative;
+    right: 5em;
+}
+#nome::placeholder{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#nome:focus{
+    outline: none;
+}
+
+#data{
+    width: 320px;
+    height: 30px;
+    background: transparent;
+    border-left: 1px none transparent;
+    border-top: 1px none transparent;
+    border-right: 1px none transparent;
+    border-bottom: 3px solid white;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:30px ;
+    font-size: 18px;
+    position: relative;
+    right: 5em;
+}
+#data::placeholder{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#data:focus{
+    outline: none;
+}
+
+#error{
+    display: none;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#butt{
+    width: 150px;
+    height: 40px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to bottom, rgb(245, 98, 122), salmon );
+    font-weight: bold;
+    border-radius: 15px;
+    color: aliceblue;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+    left: 160px;
+    border: 1px none transparent;
+    transition: all 0.3s;
+}
+
+#butt:hover{
+    font-size: larger;
+    box-shadow: 0px 0px 20px red;
+}
+
+.err{
+    position: relative;
+    top: 600px;
+    text-align: center;
+}
